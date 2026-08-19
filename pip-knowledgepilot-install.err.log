@@ -1,0 +1,26 @@
+  WARNING: The script wsdump.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tqdm.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script isympy.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts f2py.exe and numpy-config.exe are installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script distro.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts torchfrtrace.exe and torchrun.exe are installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script onnxruntime_test.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pyproject-build.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts opentelemetry-bootstrap.exe and opentelemetry-instrument.exe are installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts hf.exe, huggingface-cli.exe and tiny-agents.exe are installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts transformers-cli.exe and transformers.exe are installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script chroma.exe is installed in 'D:\miniconda3\envs\knowledgepilot\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.

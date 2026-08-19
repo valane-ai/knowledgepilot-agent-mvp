@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>KnowledgePilot</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/transparency.css">
+  <link rel="stylesheet" href="/static/document-management.css">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">K</span><div><h1>KnowledgePilot</h1><p>企业知识库助手</p></div></div>
+      <div class="sidebar-heading"><span>知识任务</span><button id="new-task" class="icon-button" title="新建任务">＋</button></div>
+      <div id="tasks" class="task-list"></div>
+      <div class="task-panel">
+        <div class="panel-title"><span>当前任务资料</span><span id="document-count" class="count-badge">0</span></div>
+        <label id="upload-label" class="upload-button">上传资料<input id="file" type="file" accept=".txt,.md,.pdf,.docx,.html,.htm,.csv,.pptx"></label>
+        <div id="upload-status" class="status"></div>
+        <ul id="documents" class="document-list"></ul>
+      </div>
+      <p class="sidebar-tip">资料仅在当前任务中检索。切换任务后会使用新的对话上下文。</p>
+    </aside>
+    <section class="workspace">
+      <header class="topbar">
+        <div><p class="eyebrow">当前知识空间</p><h2 id="task-title">选择或创建一个任务</h2></div><button id="delete-task" class="topbar-delete" type="button" disabled>删除任务</button>
+        <span id="route" class="route-pill">等待提问</span>
+      </header>
+      <div id="chat" class="chat" aria-live="polite">
+        <div class="welcome-card"><div class="welcome-icon">✦</div><h3>开始一段有依据的对话</h3><p>先创建任务并上传资料。我会只检索当前任务的内容；未命中时，也会调用大模型提供通用回答。</p></div>
+      </div>
+      <form id="form" class="composer">
+        <input id="message" placeholder="输入问题，例如：公司的报销流程是什么？" autocomplete="off" disabled>
+        <button id="send" type="submit" disabled>发送 <span>↵</span></button>
+      </form>
+    </section>
+  </main>
+  <dialog id="task-dialog"><form method="dialog" id="task-form"><h3>新建知识任务</h3><p>把同一主题或项目的资料放进一个任务。</p><input id="task-name" maxlength="80" placeholder="例如：产品支持资料" required><div class="dialog-actions"><button value="cancel" class="secondary">取消</button><button value="default" id="create-task">创建任务</button></div></form></dialog>
+  <script src="/static/app.js"></script>
+</body>
+</html>

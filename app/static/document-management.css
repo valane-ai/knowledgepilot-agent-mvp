@@ -1,0 +1,22 @@
+.topbar-delete {
+  margin-left: auto;
+  margin-right: 12px;
+  border: 1px solid #f1b8b8;
+  border-radius: 9px;
+  padding: 7px 10px;
+  background: #fff;
+  color: #b13c3c;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.topbar-delete:disabled { display: none; }
+.reindex-document {
+  border: 0;
+  background: transparent;
+  color: #b7ccff;
+  font-size: 19px;
+  cursor: pointer;
+}
+.reindex-document:hover { color: #fff; }
